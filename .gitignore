@@ -1,0 +1,36 @@
+
+---
+
+## **`.gitignore`**
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Django
+db.sqlite3
+/static/
+media/
+
+# Node / React
+node_modules/
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
